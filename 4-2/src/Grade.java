@@ -3,11 +3,13 @@ import java.util.Scanner;
 public class Grade {
 
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
 		// TODO Auto-generated method stub
 		int math;
 		int science;
 		int english;
 		double avg;
+		
 		
 		public Grade(int _math, int _science, int _english)
 		{
@@ -24,7 +26,7 @@ public class Grade {
 		}
 		
 		
-		Scanner scanner = new Scanner(System.in);
+		
 		
 		System.out.println("수학, 과학, 영어 순으로 3개의 점수 입력>>");
 		int math = scanner.nextInt();
