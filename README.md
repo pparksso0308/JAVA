@@ -10,17 +10,17 @@
 
     Graphics g;
 
-###문자열 그리기
+### 문자열 그리기
 
     g.drawString(String str, int x, int y);    // str 문자열을 (x,y)영역에 그린다.
 
-###COLOR
+### COLOR
 
         g.setColor(new Color(255,0,0));            // 빨간색을 생성하여 그래픽 색으로 지정한다. 
         g.setColor(new Color(0x0000ff00));        // 초록색을 생성하여 그래픽 색으로 지정한다. 
         g.setColor(Color.YELLOW);                 // 노란색을 그래픽 색으로 지정한다.
     
-###Font
+### Font
 
     Font f = new Font("Times New Romen", Font.ITALIC,30);   // ITALIC 스타일을 가진 "Time New Roman"체로서 30픽셀 크기의 폰트
     g.setFont(f);
@@ -36,7 +36,7 @@ JComponent의 추상 메소드로 모든 스윙 컴포넌트가 오버라이딩�
     
   void paintComponent(Graphics g) // 스윙 컴포넌트가 자신의 내부 모양을 그린다.
   
-## JPanel에 그리기
+### JPanel에 그리기
 
           class MyPanel extends JPanel{
             @Override
